@@ -1,0 +1,13 @@
+Visualizing Data
+
+Create a visualization that displays pipeline aggregations (eg moving average) or custom formulas (eg filter ratio)
+Customize the format and colors of a Lens visualization
+Create maps satisfying a given criteria
+Create a table using Lens with columns, conditional coloring, and summary rows
+Create a Dashboard with visualization panels
+Define and use spaces in Kibana
+Create permalink to share dashboards
+Create interactive dashboards with input controls, text, and drilldowns
+Use Discover to save searches and add a document table to a dashboard
+Create Lens visualization with layers
+Create Lens visualization of a specified visualization type
