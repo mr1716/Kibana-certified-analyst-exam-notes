@@ -1,6 +1,8 @@
 # Kibana-certified-analyst-exam-notes
 Notes to help you pass the Kibana Certified Analyst Exam
 
+The exam uses version 7.15, so use that documentation and environment when studying. 
+
 ## How To Use This And References
 Watch the elastic video to understand how the exam works.<br>
 Watch the archive.org if you want to learn about the different topics on the exam in a visual way and have examples. <br>
