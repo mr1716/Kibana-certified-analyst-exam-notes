@@ -1,7 +1,16 @@
 Searching Data
 
-Define an index pattern with or without a Time Filter field
-Set the time filter to a specified date or time range
-Use Kibana Query Language (KQL) to display only documents that match a specified criteria
-Create and pin a filter based on a search criteria
-Apply a search criteria to a visualization or dashboard
+- Define an index pattern with or without a Time Filter field
+https://www.elastic.co/guide/en/elasticsearch/reference/current/index-mgmt.html
+
+- Set the time filter to a specified date or time range
+https://www.elastic.co/guide/en/kibana/current/dashboard.html
+
+- Use Kibana Query Language (KQL) to display only documents that match a specified criteria
+https://www.elastic.co/guide/en/kibana/current/kuery-query.html
+
+- Create and pin a filter based on a search criteria
+https://www.elastic.co/guide/en/kibana/current/kuery-query.html
+
+- Apply a search criteria to a visualization or dashboard
+https://www.elastic.co/guide/en/kibana/current/dashboard.html
