@@ -1,8 +1,32 @@
-Analyzing Data
+# Analyzing Data
+These will provide where to find the documentation if the applicable topic has said documentation and then provide examples for applying said topic.
 
-Answer questions about a given dataset using search and visualizations
-Use Machine Learning tools to detect anomalies in a dataset
-Define a single metric, multi-metric, population, or categorizationAnomaly Detection job
-Define and use runtime fields
-Create a data frame analytics job to detect outliers
-Create a transform that generates an entity-centric index
+- Answer questions about a given dataset using search and visualizations
+This doesnt have examples nor documentation since it's related to the exam and interpreting a dashboard.
+
+- Use Machine Learning tools to detect anomalies in a dataset
+https://www.elastic.co/guide/en/kibana/current/xpack-ml.html
+Note: To do this in an environment you built, make sure to upgrade the license for a free trial. 
+Example: Detect anomalies in the flught delay time or flight price or flight time dataset.
+
+- Define a single metric, multi-metric, population, or categorization Anomaly Detection job
+https://www.elastic.co/guide/en/kibana/current/xpack-ml-anomalies.html
+Single-Metric Example:
+Multi-Metric Example:
+Population Example:
+Categorization Example:
+
+- Define and use runtime fields
+https://www.elastic.co/guide/en/elasticsearch/reference/current/runtime.html
+Example: In the default flight index, create a runtime field called IsInternational.
+The IsInternational runtime field should be True if the OrigCountry is not the same as the DestCountry.
+After creating that field, then create a visualization that shows how many flights are international flights over a time period. 
+
+- Create a data frame analytics job to detect outliers
+https://www.elastic.co/guide/en/kibana/current/xpack-ml-dfanalytics.html
+Data Frame Analytics Example:
+
+- Create a transform that generates an entity-centric index
+https://www.elastic.co/guide/en/elasticsearch/reference/current/transform-overview.html
+Example: https://www.elastic.co/guide/en/elasticsearch/reference/current/transform-examples.html
+
